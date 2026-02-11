@@ -2,13 +2,14 @@
 // FIREBASE CONFIGURATION
 // ==============================
 const firebaseConfig = {
-    apiKey: "AIzaSyB_4yVTK5s9Qt7F7gVqJFc5Wl4g3VnG_kw",
-    authDomain: "evo-goks-global-ranking.firebaseapp.com",
-    databaseURL: "https://evo-goks-global-ranking-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "evo-goks-global-ranking",
-    storageBucket: "evo-goks-global-ranking.appspot.com",
-    messagingSenderId: "123456789012",
-    appId: "1:123456789012:web:abc123def456"
+  apiKey: "AIzaSyAzREQ3mlM-CPbgMIzJFbtO8lnPEfXz70Q",
+  authDomain: "evo-goks-global-ranking.firebaseapp.com",
+  databaseURL: "https://evo-goks-global-ranking-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "evo-goks-global-ranking",
+  storageBucket: "evo-goks-global-ranking.firebasestorage.app",
+  messagingSenderId: "1073317748722",
+  appId: "1:1073317748722:web:f4c392c955d7357f78956b",
+  measurementId: "G-29C84663QE"
 };
 
 // ==============================
