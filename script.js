@@ -105,23 +105,73 @@ const stages = [
     }
 ];
 
+// ==============================
+// 22 SOAL EVOLUSI MANUSIA - LENGKAP TANPA PENGULANGAN
+// ==============================
 const questions = [
+    // === TAHAP 1: KERA PURBA (1 soal) ===
     {
         q: "Tahap evolusi manusia yang paling primitif adalah...",
         a: ["Homo Sapiens", "Kera Purba", "Australopithecus", "Homo Erectus", "Homo Habilis"],
         c: 1,
-        explanation: "Kera Purba adalah tahap paling primitif dalam evolusi manusia, hidup sekitar 15 juta tahun lalu.",
+        explanation: "Kera Purba adalah tahap paling primitif dalam evolusi manusia, hidup sekitar 15 juta tahun lalu di hutan Afrika.",
         category: "Evolusi Dasar",
         difficulty: 1
     },
+    
+    // === TAHAP 2: AUSTRALOPITHECUS (3 soal) ===
+    {
+        q: "Fosil manusia purba 'Lucy' termasuk dalam spesies...",
+        a: ["Homo Sapiens", "Homo Habilis", "Australopithecus", "Homo Erectus", "Homo Neanderthalensis"],
+        c: 2,
+        explanation: "Lucy adalah fosil Australopithecus afarensis yang ditemukan di Ethiopia tahun 1974, berusia 3.2 juta tahun.",
+        category: "Fosil Penting",
+        difficulty: 2
+    },
+    {
+        q: "Australopithecus terkenal karena...",
+        a: ["Berdiri tegak", "Menggunakan api", "Membuat alat logam", "Berlayar", "Menulis"],
+        c: 0,
+        explanation: "Australopithecus adalah hominid pertama yang berjalan tegak dengan dua kaki (bipedal).",
+        category: "Ciri-ciri",
+        difficulty: 1
+    },
+    {
+        q: "Ciri khas Australopithecus adalah...",
+        a: ["Berdiri tegak dengan 2 kaki", "Menggunakan api", "Membuat alat logam", "Bahasa kompleks", "Teknologi canggih"],
+        c: 0,
+        explanation: "Ciri utama Australopithecus adalah bipedalisme, meski lengannya masih panjang untuk memanjat pohon.",
+        category: "Ciri-ciri",
+        difficulty: 1
+    },
+    
+    // === TAHAP 3: HOMO HABILIS (3 soal) ===
     {
         q: "Manusia yang pertama kali membuat alat batu disebut...",
         a: ["Homo Sapiens", "Homo Habilis", "Homo Erectus", "Australopithecus", "Kera Purba"],
         c: 1,
-        explanation: "Homo Habilis disebut 'manusia terampil' karena pertama kali membuat alat batu sederhana.",
+        explanation: "Homo Habilis disebut 'manusia terampil' karena pertama kali membuat alat batu Oldowan.",
         category: "Perkembangan Alat",
         difficulty: 2
     },
+    {
+        q: "Kapasitas otak Homo Habilis sekitar...",
+        a: ["400-500 cc", "500-600 cc", "600-700 cc", "700-800 cc", "900-1000 cc"],
+        c: 2,
+        explanation: "Homo Habilis memiliki otak 600-700 cc, lebih besar dari Australopithecus.",
+        category: "Kapasitas Otak",
+        difficulty: 3
+    },
+    {
+        q: "Homo Habilis disebut 'manusia terampil' karena...",
+        a: ["Berdiri tegak", "Menggunakan api", "Membuat alat batu", "Berburu besar", "Bercocok tanam"],
+        c: 2,
+        explanation: "Nama 'Homo Habilis' berarti 'manusia terampil' karena membuat alat batu Oldowan.",
+        category: "Kemampuan",
+        difficulty: 2
+    },
+    
+    // === TAHAP 4: HOMO ERECTUS (4 soal) ===
     {
         q: "Manusia pertama yang keluar dari Afrika adalah...",
         a: ["Homo Sapiens", "Homo Habilis", "Homo Erectus", "Kera Purba", "Neanderthal"],
@@ -129,14 +179,6 @@ const questions = [
         explanation: "Homo Erectus adalah manusia purba pertama yang bermigrasi keluar dari Afrika.",
         category: "Migrasi",
         difficulty: 3
-    },
-    {
-        q: "Fosil manusia purba 'Lucy' termasuk dalam spesies...",
-        a: ["Homo Sapiens", "Homo Habilis", "Australopithecus", "Homo Erectus", "Homo Neanderthalensis"],
-        c: 2,
-        explanation: "Lucy adalah fosil Australopithecus afarensis yang ditemukan di Ethiopia tahun 1974.",
-        category: "Fosil Penting",
-        difficulty: 2
     },
     {
         q: "Manusia pertama yang menggunakan api adalah...",
@@ -147,11 +189,111 @@ const questions = [
         difficulty: 3
     },
     {
+        q: "Homo Erectus adalah manusia pertama yang...",
+        a: ["Menggunakan bahasa", "Tinggal di gua", "Berburu besar", "Membuat perahu", "Bercocok tanam"],
+        c: 2,
+        explanation: "Homo Erectus mengembangkan teknik berburu besar dengan tombak kayu.",
+        category: "Kemampuan",
+        difficulty: 2
+    },
+    {
+        q: "Homo Erectus menyebar hingga ke wilayah...",
+        a: ["Afrika saja", "Afrika dan Asia", "Seluruh dunia", "Eropa saja", "Australia saja"],
+        c: 1,
+        explanation: "Homo Erectus menyebar dari Afrika ke Asia (Indonesia, China, Georgia).",
+        category: "Migrasi",
+        difficulty: 2
+    },
+    
+    // === TAHAP 5: HOMO SAPIENS (6 soal) ===
+    {
         q: "Otak terbesar dimiliki oleh...",
         a: ["Homo Habilis", "Homo Erectus", "Homo Sapiens", "Australopithecus", "Homo Neanderthalensis"],
         c: 2,
-        explanation: "Homo Sapiens memiliki otak terbesar (1200-1400 cc).",
+        explanation: "Homo Sapiens memiliki otak 1200-1400 cc, terbesar dibanding hominid lain.",
         category: "Anatomi",
+        difficulty: 2
+    },
+    {
+        q: "Manusia pertama yang melakukan penguburan jenazah adalah...",
+        a: ["Homo Erectus", "Homo Sapiens", "Neanderthal", "Homo Habilis", "Kera Purba"],
+        c: 1,
+        explanation: "Homo Sapiens pertama yang melakukan ritual penguburan dengan bekal kubur.",
+        category: "Budaya",
+        difficulty: 3
+    },
+    {
+        q: "Manusia yang hidup bersamaan dengan Homo Sapiens adalah...",
+        a: ["Homo Habilis", "Homo Erectus", "Neanderthal", "Australopithecus", "Homo Floresiensis"],
+        c: 2,
+        explanation: "Neanderthal hidup bersamaan dengan Homo Sapiens di Eropa hingga 40.000 tahun lalu.",
+        category: "Koeksistensi",
+        difficulty: 3
+    },
+    {
+        q: "Manusia pertama yang membuat seni gua adalah...",
+        a: ["Homo Erectus", "Homo Sapiens", "Neanderthal", "Homo Habilis", "Kera Purba"],
+        c: 1,
+        explanation: "Homo Sapiens membuat seni gua pertama di Lascaux dan Altamira.",
+        category: "Seni Purba",
+        difficulty: 2
+    },
+    {
+        q: "Manusia modern awal (Homo Sapiens) muncul pertama kali di...",
+        a: ["Asia", "Eropa", "Afrika", "Australia", "Amerika"],
+        c: 2,
+        explanation: "Homo Sapiens muncul di Afrika sekitar 300.000 tahun lalu (Teori Out of Africa).",
+        category: "Asal Usul",
+        difficulty: 2
+    },
+    {
+        q: "Homo Sapiens memiliki kapasitas otak sekitar...",
+        a: ["500-600 cc", "700-800 cc", "900-1000 cc", "1100-1300 cc", "1200-1400 cc"],
+        c: 4,
+        explanation: "Otak Homo Sapiens 1200-1400 cc, memungkinkan bahasa dan teknologi kompleks.",
+        category: "Anatomi",
+        difficulty: 2
+    },
+    
+    // === TAHAP 6: MANUSIA MODERN (5 soal) ===
+    {
+        q: "Manusia purba yang ditemukan di Pulau Flores disebut...",
+        a: ["Homo Erectus", "Homo Sapiens", "Homo Habilis", "Homo Floresiensis", "Australopithecus"],
+        c: 3,
+        explanation: "Homo Floresiensis atau 'Hobbit' ditemukan di Gua Liang Bua, Flores, 2003.",
+        category: "Fosil Unik",
+        difficulty: 3
+    },
+    {
+        q: "Manusia purba yang hidup di Eropa selama Zaman Es adalah...",
+        a: ["Homo Erectus", "Homo Sapiens", "Neanderthal", "Homo Habilis", "Australopithecus"],
+        c: 2,
+        explanation: "Neanderthal beradaptasi dengan iklim dingin Eropa selama Zaman Es.",
+        category: "Adaptasi Lingkungan",
+        difficulty: 3
+    },
+    {
+        q: "Manusia modern mulai bercocok tanam sekitar...",
+        a: ["1 juta tahun lalu", "500.000 tahun lalu", "100.000 tahun lalu", "10.000 tahun lalu", "1.000 tahun lalu"],
+        c: 3,
+        explanation: "Revolusi Neolitik dimulai 10.000 tahun lalu dengan domestikasi tanaman.",
+        category: "Peradaban",
+        difficulty: 3
+    },
+    {
+        q: "Manusia purba yang membuat alat dari tulang adalah...",
+        a: ["Australopithecus", "Homo Habilis", "Homo Erectus", "Homo Sapiens", "Kera Purba"],
+        c: 3,
+        explanation: "Homo Sapiens membuat jarum tulang, harpun, dan seruling dari tulang.",
+        category: "Teknologi",
+        difficulty: 2
+    },
+    {
+        q: "Zaman ketika manusia mulai hidup menetap adalah...",
+        a: ["Paleolitikum", "Mesolitikum", "Neolitikum", "Megalitikum", "Logam"],
+        c: 2,
+        explanation: "Neolitikum ditandai dengan kehidupan menetap, pertanian, dan peternakan.",
+        category: "Periode",
         difficulty: 2
     }
 ];
